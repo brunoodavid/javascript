@@ -1,0 +1,37 @@
+Comandos para Arrays
+
+1 - Criação de um Array
+
+var lista = [];
+
+2 - Mostrar valores no Array
+
+lista
+
+3- buscando um valor no array 
+
+lista.indexOf("nome do valor que está buscando");
+
+se encontrar, ele retornará a sua posição no array.
+se o valor for inválido, retornará -1.
+
+4 - Transformando Array em uma string
+
+Exemplo de array: lista ["Arroz", "Feijao"]
+
+comando para transformar em string
+lista.join(",");
+
+fazendo isto, a string ficará (arroz, feijão)
+
+5 - Excluindo valor no Array
+
+lista.pop();
+irá excluir o ultimo valor do array.
+
+lista.shift();
+irá excluir o primeiro valor do array.
+
+6 - Adicionando valor no Array
+
+lista.push("valor no qual voce quer adicionar");
