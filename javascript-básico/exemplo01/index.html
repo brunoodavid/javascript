@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        #num1{
+            background-color: #eee; width: 200px; height: 200px;
+            border: 1px solid #000; text-align: center; line-height: 200px;
+            font-size: 150px; float: left; margin-right: 10px;
+        }
+
+        #num2{
+            background-color: #fff; width: 200px; height: 200px; text-align: center;
+            padding: 0; margin: 0; border: 1px solid #000; line-height: 200px;
+            font-size: 150px;
+        }
+
+        button{
+            margin-top: 5px; width: 415px; height: 30px;
+        }
+    </style>
+</head>
+<body onload="resetar()">
+    <div id="num1"></div>
+    <input type="text" id="num2">
+    <div style="clear:both"></div>
+    <button onclick="verificar()">Verificar</button>
+</body>
+</html>
